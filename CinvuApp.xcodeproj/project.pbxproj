@@ -13,7 +13,44 @@
 		C6BF28142779C3B500B0B9E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BF28122779C3B500B0B9E5 /* Main.storyboard */; };
 		C6BF28162779C3B800B0B9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BF28152779C3B800B0B9E5 /* Assets.xcassets */; };
 		C6BF28192779C3B800B0B9E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BF28172779C3B800B0B9E5 /* LaunchScreen.storyboard */; };
+		C6BF29D42779E70400B0B9E5 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF29D12779E5BB00B0B9E5 /* Commons.framework */; };
+		C6BF29D52779E70400B0B9E5 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF29D12779E5BB00B0B9E5 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6BF29D72779E70900B0B9E5 /* Coordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF29BE2779D08E00B0B9E5 /* Coordinator.framework */; };
+		C6BF29D82779E70900B0B9E5 /* Coordinator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF29BE2779D08E00B0B9E5 /* Coordinator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6BF29D92779E70B00B0B9E5 /* CoursesCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF29212779CC5600B0B9E5 /* CoursesCategory.framework */; };
+		C6BF29DA2779E70B00B0B9E5 /* CoursesCategory.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF29212779CC5600B0B9E5 /* CoursesCategory.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6BF29DB2779E70D00B0B9E5 /* CreateAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF291D2779CC5100B0B9E5 /* CreateAccount.framework */; };
+		C6BF29DC2779E70D00B0B9E5 /* CreateAccount.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF291D2779CC5100B0B9E5 /* CreateAccount.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6BF29DD2779E70F00B0B9E5 /* HomePage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF29242779CC5E00B0B9E5 /* HomePage.framework */; };
+		C6BF29DE2779E70F00B0B9E5 /* HomePage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF29242779CC5E00B0B9E5 /* HomePage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6BF29DF2779E71000B0B9E5 /* Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF29272779CC6600B0B9E5 /* Login.framework */; };
+		C6BF29E02779E71000B0B9E5 /* Login.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF29272779CC6600B0B9E5 /* Login.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6BF29E12779E71200B0B9E5 /* Splash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF29A82779CF4B00B0B9E5 /* Splash.framework */; };
+		C6BF29E22779E71200B0B9E5 /* Splash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6BF29A82779CF4B00B0B9E5 /* Splash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6EB0C22277B1905000EADD6 /* SharedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EB0C21277B1905000EADD6 /* SharedUI.framework */; };
+		C6EB0C23277B1905000EADD6 /* SharedUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6EB0C21277B1905000EADD6 /* SharedUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6BF29D62779E70400B0B9E5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C6BF29DC2779E70D00B0B9E5 /* CreateAccount.framework in Embed Frameworks */,
+				C6BF29D52779E70400B0B9E5 /* Commons.framework in Embed Frameworks */,
+				C6BF29E22779E71200B0B9E5 /* Splash.framework in Embed Frameworks */,
+				C6EB0C23277B1905000EADD6 /* SharedUI.framework in Embed Frameworks */,
+				C6BF29DE2779E70F00B0B9E5 /* HomePage.framework in Embed Frameworks */,
+				C6BF29D82779E70900B0B9E5 /* Coordinator.framework in Embed Frameworks */,
+				C6BF29E02779E71000B0B9E5 /* Login.framework in Embed Frameworks */,
+				C6BF29DA2779E70B00B0B9E5 /* CoursesCategory.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C6BF28092779C3B500B0B9E5 /* CinvuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinvuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +61,14 @@
 		C6BF28152779C3B800B0B9E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6BF28182779C3B800B0B9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6BF281A2779C3B800B0B9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6BF291D2779CC5100B0B9E5 /* CreateAccount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CreateAccount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BF29212779CC5600B0B9E5 /* CoursesCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoursesCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BF29242779CC5E00B0B9E5 /* HomePage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HomePage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BF29272779CC6600B0B9E5 /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BF29A82779CF4B00B0B9E5 /* Splash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Splash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BF29BE2779D08E00B0B9E5 /* Coordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Coordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BF29D12779E5BB00B0B9E5 /* Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Commons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6EB0C21277B1905000EADD6 /* SharedUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SharedUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +76,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BF29DB2779E70D00B0B9E5 /* CreateAccount.framework in Frameworks */,
+				C6BF29D42779E70400B0B9E5 /* Commons.framework in Frameworks */,
+				C6BF29E12779E71200B0B9E5 /* Splash.framework in Frameworks */,
+				C6EB0C22277B1905000EADD6 /* SharedUI.framework in Frameworks */,
+				C6BF29DF2779E71000B0B9E5 /* Login.framework in Frameworks */,
+				C6BF29D92779E70B00B0B9E5 /* CoursesCategory.framework in Frameworks */,
+				C6BF29D72779E70900B0B9E5 /* Coordinator.framework in Frameworks */,
+				C6BF29DD2779E70F00B0B9E5 /* HomePage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +95,7 @@
 			children = (
 				C6BF280B2779C3B500B0B9E5 /* CinvuApp */,
 				C6BF280A2779C3B500B0B9E5 /* Products */,
+				C6BF291C2779CC5100B0B9E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +121,21 @@
 			path = CinvuApp;
 			sourceTree = "<group>";
 		};
+		C6BF291C2779CC5100B0B9E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6EB0C21277B1905000EADD6 /* SharedUI.framework */,
+				C6BF29D12779E5BB00B0B9E5 /* Commons.framework */,
+				C6BF29BE2779D08E00B0B9E5 /* Coordinator.framework */,
+				C6BF29A82779CF4B00B0B9E5 /* Splash.framework */,
+				C6BF29272779CC6600B0B9E5 /* Login.framework */,
+				C6BF29242779CC5E00B0B9E5 /* HomePage.framework */,
+				C6BF29212779CC5600B0B9E5 /* CoursesCategory.framework */,
+				C6BF291D2779CC5100B0B9E5 /* CreateAccount.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +146,7 @@
 				C6BF28052779C3B500B0B9E5 /* Sources */,
 				C6BF28062779C3B500B0B9E5 /* Frameworks */,
 				C6BF28072779C3B500B0B9E5 /* Resources */,
+				C6BF29D62779E70400B0B9E5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

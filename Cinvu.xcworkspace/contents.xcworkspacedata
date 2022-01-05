@@ -2,6 +2,30 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../Splash/Splash.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Network/Network.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../CoursesCategory/CoursesCategory.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../CreateAccount/CreateAccount.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Coordinator/Coordinator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../HomePage/HomePage.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Commons/Commons.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../SharedUI/SharedUI.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../Login/Login.xcodeproj">
    </FileRef>
    <FileRef
